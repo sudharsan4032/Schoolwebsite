@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	transition: 0.6s;
+	z-index: 10000;
+}
+
+#containerSlide{
+	width: 900px;
+	margin: 0 auto;
+	padding-top: 30px;
+
+}
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.3);
+	transition: 3s;
+  }
+  .nav-link{
+	
+	font-size: larger;
+	margin-left: 30px;
+	font-weight: bold;
+	color: red;
+}
+.topbar{
+	position: relative;
+	margin:0 auto;
+	margin-bottom: 20px;
+	margin-top: 100px;
+}
+
+.nav-link:hover{
+	padding: auto;
+	background:rgb(168, 221, 161);
+	border-radius: 20px;
+	transition: 0.3s ease-in-out ;
+}
+
+#description{
+	margin-top: 30px;
+	text-align: center;
+	padding-top: 30px;	
+}
+.card-text{
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+.card-title{
+	font-family: 'Farro', sans-serif;
+	text-align: center;
+}
+#card-admission{
+	width: auto;
+	max-width: 500px;
+	margin: 0 auto;
+	padding-top: 80px;
+}
+#principal-corner{
+	float: left;
+	width: 200px;
+}
+
+.container {
+	width: auto;
+	max-width: 680px;
+	padding: 0 15px;
+	text-align: center;
+	margin-top: 50px;
+  }
+  .submit-btn{
+	  float: right;
+  }
+ .left-img{
+	 height: 750px;
+	 margin-left: 50px;
+ }
+ .containerAlert{
+	 width: 60%;
+	 margin: 0 auto;
+ }
