@@ -14,7 +14,7 @@
     $txt = "Name of Student = ". $name . "\r\n Student Date of Birth =". $dob . "\r\n Father's Name = ".$father. "\r\n Mother Name = ".$mother. "\r\n Mobile Number = ". $number . "\r\n E-mail = "
     .$email. "\r\n Permanent Address = ". $address. "\r\n Who Sugguest you!" . $textarea ;
 
-    $headder = "From:school@antonyschool.edu \r\n";
+    $headder = "From:sudharsanlenin5@gmail.com \r\n";
     if (mail($email_to , $subject , $txt , $headder)== true){
         header("Location: thankpage.php");
         
